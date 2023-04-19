@@ -1,0 +1,261 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Good morning",
+              "Good Evening",
+              "Good Afternoon",
+              "Hi",
+              "Hey",
+              "Is anyone there?",
+              "Hello",
+              "Good day",
+              "Greetings"
+          ],
+          "responses": [
+              "Hey!",
+              "Hello!",
+              "Hi there, what can I do for you?",
+              "Hi there, how can I help?"
+          ]
+      },
+
+     
+      {
+          "tag": "goodbye",
+          "patterns" : [ 
+              "Bye", 
+              "See you later", 
+              "Goodbye",
+              "Bye, take care and stay safe!",
+              "It was nice talking to you, have a great day!",
+              "Thanks a lot for today",
+              "Farewell, let is chat soon!",
+              "I really appreciate all the help you gave me today, thank you.",
+              "Thank you so much for your assistance today.",
+              "Thanks for the great meeting today, it was really productive.",
+              "Goodbye for now",
+              "Thank you for the excellent service you provided me today, I really appreciate it."
+          ],
+          "responses": [
+              "See you later, thanks for visiting",
+              "Have a nice day",
+              "Bye! Come back again soon.",
+              "Bye-bye!",
+              "Have a good one!",
+              "Have a great day!",
+              "Goodbye, let is catch up again soon!",
+              "Until next time, do you need any further assistance?",
+              "Farewell, let is chat soon!",
+              "Until next time, stay well!"
+          ]
+      },
+
+      
+      {
+          "tag": "thanks",
+          "patterns": [ 
+              "Thanks", 
+              "Thank you", 
+              "That is helpful", 
+              "Thanks a lot!",
+              "I am so thankful for your help.",
+              "You are the best, thank you.",
+              "Thanks a bunch!",
+              "You are a star, thank you.",
+              "You are amazing, thank you.",
+              "Thanks for your support.",
+              "You have my sincerest thanks.",
+              "That is incredibly thoughtful of you, thank you.",
+              "I am deeply grateful.",
+              "Thanks a million!",
+              "Many thanks for your assistance.",
+              "Thank you for being so generous.",
+              "I am grateful for your support and encouragement, thank you.",
+              "Your assistance means a lot, thank you." 
+          ],
+          "responses": [ 
+              "Happy to help!",
+              "Is there anything I can do for you",
+              "Any time!",
+              "Is there something I can help you with?",
+              "My pleasure" 
+          ]
+      },
+
+
+      {
+          "tag": "services",
+          "patterns": [
+              "What services do you provide?",
+              "What kind of services do you offer?",
+              "Can you tell me about the services you provide?",
+              "What are the different services you have available?",
+              "What kind of work does company do?",
+              "What do you do?",
+              "What types of services do you offer?",
+              "Could you tell me about the services you provide?",
+              "What are the services you specialize in?",
+              "What kind of solutions do you offer for your clients?",
+              "What services are available to clients like me?",
+              "Can you describe your service offerings?",
+              "In what areas do you provide services?",
+              "Could you give me an overview of the services you offer?",
+              "What can I expect from this company?"
+          ],
+          "responses": [
+              "These are some of the services we provide - 'Web Development', 'Cloud Services', 'Mobile Apps', 'UI/UX & Graphic Design', 'Game Development', 'AR/VR Development'"
+          ]
+      },
+      
+      
+      {
+          "tag": "timing",
+          "patterns": [
+              "At what time are you available?",
+              "What are your timings?",
+              "When can we connect?",
+              "At what time can I come to meet you?",
+              "At what time should I contact you?",
+              "What is your availability like?",
+              "When would be a good time for us to connect?",
+              "What times work for you?",
+              "Can you let me know your schedule?",
+              "Are there any specific times you are available to meet?"
+          ],
+          "responses": [
+              "Our office timings are 9 A.M - 6 P.M IST",
+              "You can visit us between 9 A.M - 6 P.M IST",
+              "You can meet us between 9 A.M - 6 P.M IST"
+          ]
+      },
+      
+      
+      {
+          "tag": "connect",
+          "patterns": [
+              "How can we connect?",
+              "What is your email address?",
+              "What is your email address or mobile number?",
+              "what are your contact details?",
+              "How can I reach you out?",
+              "How can we talk to each other",
+              "What is the best way for us to get in touch?",
+              "How would you like to communicate moving forward?",
+              "Can we exchange contact information to stay connected?",
+              "What is your preferred method of communication?",
+              "Would you like to connect via email, phone, or in person?",
+              "Are there any specific communication tools you prefer to use?",
+              "Shall we schedule a call or meeting to discuss further?",
+              "How can I reach you if I need to get in touch urgently?"
+          ],
+          "responses": [
+              "You can connect with us: Email- id - preeti@nevrio.tech, deepak@nevrio.tech or call us - 9041959799"
+          ]
+      },
+      
+      
+      {
+          "tag": "client",
+          "patterns": [
+              "How many clients have you worked with?",
+              "Can you tell me how many clients you have worked with in the past?",
+              "How many clients have you helped so far?",
+              "What is the number of clients you have had over the years?",
+              "How extensive is your client list?",
+              "Can you give me an idea of the volume of clients you have worked with?",
+              "How many clients have you successfully served in the past?",
+              "What is the count of your satisfied clients?",
+              "How many clients have benefited from your expertise?",
+              "How many clients have you had the pleasure of working with?",
+              "What is the total number of clients that you have interacted with?",
+              "What is the total number of clients you have worked with to date?",
+              "How many clients have you had the privilege of working with?",
+              "How many clients have entrusted you with their needs?",
+              "What is the number of clients that you have served up to now?",
+              "How many clients are you currently working with?",
+              "What is your client load like at the moment?",
+              "How many active clients do you have?",
+              "How many clients do you have on your roster?",
+              "What is the maximum number of clients you can handle?"
+          ],
+          "responses": [
+              "We have worked with several clients from outside India as well as inside India. Its been 2 great years we have worked with and satisfied clients. For more information you can connect with us: Email- id - preeti@nevrio.tech, deepak@nevrio.tech or call us - 9041959799 "
+          ]
+      },
+      
+      
+      {
+          "tag": "company",
+          "patterns": [
+              "Tell me about your company",
+              "What is the history of your company",
+              "What products or services does your company offer?",
+              "How old are you?",
+              "For how many years are you serving clients",
+              "What does your company do?",
+              "can you tell me brief about your company",
+              "Can you give me an overview of your company?",
+              "How long has your company been in business?",
+              "Can you describe the company culture at your organization?"
+              
+          ],
+          "responses": [
+              "Nevrio are service based startup. We have worked on many projects with many clients for 2 great years. We have team for Web, Gaming, VR/AR, AI/ML and Mobile App Develpment. For more information You can connect with us: Email- id - preeti@nevrio.tech, deepak@nevrio.tech or call us - 9041959799 "
+          ]
+      },
+      
+      
+      {
+          "tag": "project",
+          "patterns": [
+              "Tell me about your projects?",
+              "What projects have you worked on?",
+              "What kind of projects have you been involved in?",
+              "Can you tell me about your past project experience?",
+              "What are some projects you have completed in the past?",
+              "Could you give me an overview of your project history?",
+              "What types of projects have you worked on in the past?",
+              "What are some of the most challenging projects you have worked on?",
+              "What have been some of your favorite projects to work on?",
+              "What was the most significant project you have been a part of?",
+              "Which project are you most proud of?",
+              "What are some examples of projects you have worked on that align with our organization's goals?",
+              "Can you describe some of the projects you have been working on lately?",
+              "How many projects have you worked with?",
+              "How would you summarize the projects you have completed in the past year?",
+              "Can you walk me through a recent project you worked on?"
+          ],
+          "responses": [
+              "We have worked with several projects over 2 years. Some of our good projects are : 1. Foodle - A food order and delivery app. 2. GameMaster - A 2d Game. 3. POM - A dating app in flutter. 4.MDM - An android app for phone lock system."
+          ]
+      },
+
+      {
+        "tag": "health",
+        "patterns": [
+            "How are you today?",
+            "Hey there, how have you been?",
+            "Hi, how is everything with you?",
+            "What is up?",
+            "How are you doing?",
+            "How are you feeling today?",
+            "How is your day going so far?",
+            "What is new with you today?",
+            "How is everything with you today?",
+            "What is the history of your projects?"
+        ],
+        "responses": [
+            "I'm doing well, thanks for asking.",
+            "I'm feeling great",
+            "I'm hanging in there, thanks for asking.",
+            "I'm doing pretty well, thanks for asking.",
+            "I'm doing pretty good, thanks for asking.",
+            "I'm feeling quite positive today, thanks for asking!"
+        ]
+    }
+
+      
+  ]
+}
